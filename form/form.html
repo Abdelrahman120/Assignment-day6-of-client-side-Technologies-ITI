@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Name: <input type="text" id="name"  >
+    <span id="1"></span>
+    <br>
+    Age: <input type="text" id="age" >
+    <span id="2"></span>
+    <br>
+    E-mail: <input type="txt" id="email" >
+    <span id="3"></span>
+    <br>
+    <button onclick="validate()">Add</button>
+    <button onclick="reset()">Reset</button>
+
+    <table border="1">
+        <thead>
+            <th>Name</th>
+            <th>Age</th>
+            <th>E-mail</th>
+        </thead >
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+    <style>
+        table{
+            display: none;
+
+        }
+    </style>
+    <script src="form.js"></script>
+</body>
+</html>
