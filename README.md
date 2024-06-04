@@ -1,0 +1,1 @@
+this is the Assignment of day 6 in ITI client side Technologies in training in ITI ,in it i have made some tasks using HTML ,CSS and JS ,that making task on clone, calculator using JS functions , task on events and validation form.
